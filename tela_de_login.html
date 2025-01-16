@@ -5,21 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
 </head>
 <body>
      <main>
-        <form action="" method="get">
             <section class="container_login">
-                <div>
-                    <label for="login">Usuário</label>
-                    <input type="text" name="login" id="login">
-                </div>
-                <div>
-                    <label for="senha">Senha</label>
-                    <input type="text" name="senha" id="senha">
-                </div>
+                
+                    <input type="text" id="login" placeholder="Usuário">
+
+                    <input type="text" id="senha" placeholder="Senha">
+
+                    <button id="botao" onclick="logar()">Entrar</button>
+
             </section>
-        </form>
      </main>
     
 </body>
