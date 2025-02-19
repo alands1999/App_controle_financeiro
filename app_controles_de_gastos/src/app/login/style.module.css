@@ -1,0 +1,92 @@
+/*Tag main "Principal"*/
+.container_principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+/*2 containers principais*/
+.container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.container:first-child{
+    background-color: var(--hard-orange);
+}
+/*.container:nth-child(2){
+    background-color: var(--medium-color);
+}*/
+
+/*Titulo*/
+.titulo{
+    color: var(--medium-color); 
+    font-size: 35px;
+    letter-spacing: 7px;   
+}
+
+/*Inputs de login*/
+.inputLog{
+    padding: 15px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--medium-color);
+    outline: none;
+}
+.inputLog::placeholder {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+
+
+/*container com check box*/
+.container_options{
+    width: 400px; 
+    display: flex;
+    justify-content: space-between;
+    color: var(--medium-color); 
+}
+/*espaçamento do label e da checkbox*/
+.container_options div {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+/*Link de senha*/
+.esqueceuSenha {
+    text-decoration: none;
+    color: var(--medium-color); 
+}
+
+/*Estilos do botão*/
+.botao{
+    width: 350px;   
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: var( --lively-blue);
+    color: var(--medium-color);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+.botao:hover{
+    background-color: var(--medium-color);
+    color: var(--lively-blue);
+}
+
+
+
+.imgLogin {
+    width: 70%;
+    height: 70%;
+}
