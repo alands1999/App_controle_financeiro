@@ -1,9 +1,16 @@
-import styles from "./page.module.css";
+"use client";
+
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+
+//import styles from "./page.module.css";
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-      
-    </div>
-  );
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/login");
+  }, []);
+
+  return null; // Não renderiza nada, só faz o redirecionamento
 }
